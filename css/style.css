@@ -1,0 +1,52 @@
+html { font-size: 62.5%; }
+
+body {
+  background-color: #e2eda8;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+	font-size: 1.4em;
+}
+
+#wrapper {
+  margin: 0 10px;
+}
+
+#header h1 {
+  color: #3bb36f;
+}
+
+#sidebar {
+  float: left;
+  width: 180px;
+  background-color: #3bb36f;
+  color: #fff;
+}
+
+#content {
+  float: left;
+  background-color: white;
+  margin-left: 1em;
+  padding: 1.2em .8em;
+  width: 780px;
+	color: #696969;
+}
+
+#content article h1 {
+  border: 2px solid red;
+  padding: 3px 10px;
+  color: #3bb36f;
+  margin: 0px;
+}
+
+#footer {
+  clear: both;
+}
+
+ul {
+  padding-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ul li {
+  line-height: 1.5;
+}
